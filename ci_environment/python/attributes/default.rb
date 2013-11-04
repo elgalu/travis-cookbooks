@@ -19,4 +19,4 @@
 #
 
 default['python']['multi']['pythons'] = %w(python2.6 python2.7 python3.2 python3.3 pypy)
-default['python']['pip']['packages']  = %w(nose pytest mock numpy)
+default['python']['pip']['packages']  = [] #%w(nose pytest mock numpy)
